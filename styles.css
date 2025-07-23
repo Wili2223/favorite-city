@@ -1,0 +1,87 @@
+:root{
+    --primary-color: #1900ff; 
+    --secondary-color: #005bb5;
+    --lebel-color: #333;
+    --bacraund-color-main: #f4f4f4;
+    --text-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bacraund-color-main);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.mi-presentacion{
+    display: flex;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none
+}
+
+header h1{
+    display: flex;
+    padding: 20px;
+}
+
+header p{
+    width: 70%;
+}
+
+.card-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.395);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffff;
+    border-radius: 8px;
+    gap: 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+footer{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+footer a{
+    text-decoration: none;
+    color: var(--text-color);
+    border: 3px solid var(--lebel-color);
+    border-radius: 8px;
+    position: relative;
+    
+}
+
+@media escreen and (max-width: 500px) {
+  
+    
+    .main-cord {
+        width: 90%;
+    }
+    
+}
